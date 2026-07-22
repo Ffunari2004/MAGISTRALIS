@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "minecraft:quartz_pillar"
+      },
+      "name": "default"
+    },
+    "blue": {
+      "map": {
+        "1": "minecraft:lapis_block"
+      },
+      "name": "blue"
+    },
+    "sandstone": {
+      "map": {
+        "1": "minecraft:sandstone_top"
+      },
+      "name": "sandstone"
+    }
+  }
+}

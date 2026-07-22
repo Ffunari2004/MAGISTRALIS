@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "magistralis:block/polished_sandstone",
+    "up": "magistralis:block/polished_sandstone",
+    "north": "magistralis:block/polished_sandstone",
+    "east": "magistralis:block/polished_sandstone",
+    "south": "magistralis:block/polished_sandstone",
+    "west": "magistralis:block/polished_sandstone",
+    "particle": "magistralis:block/polished_sandstone"
+  },
+  "render_type": "solid"
+}

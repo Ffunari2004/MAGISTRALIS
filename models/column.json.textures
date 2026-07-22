@@ -1,0 +1,39 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "3": "minecraft:quartz_block_side",
+        "4": "minecraft:quartz_block_side"
+      },
+      "name": "default"
+    },
+    "quartz": {
+      "map": {
+        "3": "minecraft:quartz_block_side",
+        "4": "minecraft:quartz_pillar"
+      },
+      "name": "quartz"
+    },
+    "red": {
+      "map": {
+        "3": "minecraft:quartz_block_side",
+        "4": "minecraft:red_concrete"
+      },
+      "name": "red"
+    },
+    "sandstone": {
+      "map": {
+        "3": "polished_sandstone",
+        "4": "sandstonepilar"
+      },
+      "name": "sandstone"
+    },
+    "smoothsandstone": {
+      "map": {
+        "3": "polished_sandstone",
+        "4": "polished_sandstone"
+      },
+      "name": "smoothsandstone"
+    }
+  }
+}

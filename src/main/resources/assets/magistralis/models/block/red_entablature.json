@@ -1,0 +1,9 @@
+{
+  "parent": "magistralis:custom/entablature",
+  "textures": {
+    "all": "magistralis:block/re",
+    "particle": "minecraft:block/quartz_block_bottom",
+    "1": "minecraft:block/red_concrete"
+  },
+  "render_type": "cutout_mipped"
+}

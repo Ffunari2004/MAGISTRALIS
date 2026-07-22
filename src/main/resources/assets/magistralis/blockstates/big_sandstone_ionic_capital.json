@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "magistralis:block/big_sandstone_ionic_capital"
+    },
+    "facing=east": {
+      "model": "magistralis:block/big_sandstone_ionic_capital",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "magistralis:block/big_sandstone_ionic_capital",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "magistralis:block/big_sandstone_ionic_capital",
+      "y": 270
+    }
+  }
+}

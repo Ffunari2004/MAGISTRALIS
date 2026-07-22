@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "magistralis:block/small_quartz_ionic"
+    },
+    "facing=east": {
+      "model": "magistralis:block/small_quartz_ionic",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "magistralis:block/small_quartz_ionic",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "magistralis:block/small_quartz_ionic",
+      "y": 270
+    }
+  }
+}

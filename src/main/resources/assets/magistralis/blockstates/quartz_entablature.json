@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "magistralis:block/quartz_entablature"
+    },
+    "facing=east": {
+      "model": "magistralis:block/quartz_entablature",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "magistralis:block/quartz_entablature",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "magistralis:block/quartz_entablature",
+      "y": 270
+    }
+  }
+}

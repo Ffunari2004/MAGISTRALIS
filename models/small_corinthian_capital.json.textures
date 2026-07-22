@@ -1,0 +1,32 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "minecraft:acacia_door_bottom",
+        "2": "minecraft:birch_log_top"
+      },
+      "name": "default"
+    },
+    "golden": {
+      "map": {
+        "0": "minecraft:gold_block",
+        "2": "minecraft:quartz_pillar"
+      },
+      "name": "golden"
+    },
+    "quartz": {
+      "map": {
+        "0": "minecraft:quartz_block_side",
+        "2": "minecraft:quartz_pillar"
+      },
+      "name": "quartz"
+    },
+    "sandstone": {
+      "map": {
+        "0": "polished_sandstone",
+        "2": "polished_sandstone"
+      },
+      "name": "sandstone"
+    }
+  }
+}

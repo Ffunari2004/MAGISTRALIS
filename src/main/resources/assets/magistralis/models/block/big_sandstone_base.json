@@ -1,0 +1,10 @@
+{
+  "parent": "magistralis:custom/big_base",
+  "textures": {
+    "all": "magistralis:block/bsb",
+    "particle": "minecraft:block/sandstone_bottom",
+    "0": "magistralis:block/polished_sandstone",
+    "1": "magistralis:block/polished_sandstone"
+  },
+  "render_type": "translucent"
+}

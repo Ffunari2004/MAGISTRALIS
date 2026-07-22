@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "minecraft:quartz_block_side"
+      },
+      "name": "default"
+    },
+    "golden": {
+      "map": {
+        "0": "minecraft:gold_block"
+      },
+      "name": "golden"
+    },
+    "sandstone": {
+      "map": {
+        "0": "polished_sandstone"
+      },
+      "name": "sandstone"
+    }
+  }
+}

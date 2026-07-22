@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "magistralis:block/red_column"
+    },
+    "facing=east": {
+      "model": "magistralis:block/red_column",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "magistralis:block/red_column",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "magistralis:block/red_column",
+      "y": 270
+    }
+  }
+}

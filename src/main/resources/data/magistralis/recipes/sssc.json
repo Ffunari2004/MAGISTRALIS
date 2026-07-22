@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "minecraft:smooth_sandstone"
+  },
+  "result": "magistralis:small_sandstone_smooth_column"
+}

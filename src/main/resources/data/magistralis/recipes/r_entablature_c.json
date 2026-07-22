@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": {
+      "item": "magistralis:quartz_entablature"
+    },
+    "b": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "item": "magistralis:red_entablature",
+    "count": 1
+  }
+}

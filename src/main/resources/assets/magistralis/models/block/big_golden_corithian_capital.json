@@ -1,0 +1,9 @@
+{
+  "parent": "magistralis:custom/big_corinthian_capital",
+  "textures": {
+    "all": "magistralis:block/bgqcc",
+    "particle": "minecraft:block/quartz_block_bottom",
+    "0": "minecraft:block/gold_block"
+  },
+  "render_type": "translucent"
+}

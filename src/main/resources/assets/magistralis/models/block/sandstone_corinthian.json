@@ -1,0 +1,10 @@
+{
+  "parent": "magistralis:custom/corinthian_capital",
+  "textures": {
+    "all": "magistralis:block/scc",
+    "particle": "minecraft:block/sandstone_bottom",
+    "0": "magistralis:block/polished_sandstone",
+    "2": "magistralis:block/polished_sandstone"
+  },
+  "render_type": "translucent"
+}

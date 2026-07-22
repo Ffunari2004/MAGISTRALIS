@@ -1,0 +1,10 @@
+{
+  "parent": "magistralis:custom/smallcolumn",
+  "textures": {
+    "all": "magistralis:block/stc",
+    "particle": "minecraft:block/sandstone_bottom",
+    "2": "magistralis:block/polished_sandstone",
+    "5": "magistralis:block/sandstonepilar"
+  },
+  "render_type": "cutout_mipped"
+}
