@@ -1,0 +1,1653 @@
+{
+  "mod_elements": [
+    {
+      "name": "QuartzColumn",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_column",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/blockstates/quartz_column.json",
+          "src/main/resources/assets/magistralis/models/block/quartz_column.json",
+          "src/main/resources/data/magistralis/loot_tables/blocks/quartz_column.json",
+          "src/main/resources/assets/magistralis/models/item/quartz_column.json",
+          "src/main/java/net/mcreator/magistralis/block/QuartzColumnBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "QuartzDoric",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_doric",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/loot_tables/blocks/quartz_doric.json",
+          "src/main/resources/assets/magistralis/blockstates/quartz_doric.json",
+          "src/main/resources/assets/magistralis/models/item/quartz_doric.json",
+          "src/main/java/net/mcreator/magistralis/block/QuartzDoricBlock.java",
+          "src/main/resources/assets/magistralis/models/block/quartz_doric.json"
+        ]
+      }
+    },
+    {
+      "name": "Magistralis",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magistralis",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "QuartzIonic",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_ionic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/models/block/quartz_ionic.json",
+          "src/main/resources/data/magistralis/loot_tables/blocks/quartz_ionic.json",
+          "src/main/resources/assets/magistralis/blockstates/quartz_ionic.json",
+          "src/main/resources/assets/magistralis/models/item/quartz_ionic.json",
+          "src/main/java/net/mcreator/magistralis/block/QuartzIonicBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "QuartzCorinthian",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_corinthian",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/loot_tables/blocks/quartz_corinthian.json",
+          "src/main/resources/assets/magistralis/models/block/quartz_corinthian.json",
+          "src/main/resources/assets/magistralis/blockstates/quartz_corinthian.json",
+          "src/main/java/net/mcreator/magistralis/block/QuartzCorinthianBlock.java",
+          "src/main/resources/assets/magistralis/models/item/quartz_corinthian.json"
+        ]
+      }
+    },
+    {
+      "name": "QuartzBase",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_base",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magistralis/block/QuartzBaseBlock.java",
+          "src/main/resources/assets/magistralis/models/item/quartz_base.json",
+          "src/main/resources/assets/magistralis/blockstates/quartz_base.json",
+          "src/main/resources/assets/magistralis/models/block/quartz_base.json",
+          "src/main/resources/data/magistralis/loot_tables/blocks/quartz_base.json"
+        ]
+      }
+    },
+    {
+      "name": "QuartzC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/quartz_c.json"
+        ]
+      }
+    },
+    {
+      "name": "QuartzD",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_d",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/quartz_d.json"
+        ]
+      }
+    },
+    {
+      "name": "QuartzI",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_i",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/quartz_i.json"
+        ]
+      }
+    },
+    {
+      "name": "QuartzCo",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_co",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/quartz_co.json"
+        ]
+      }
+    },
+    {
+      "name": "QuartzB",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/quartz_b.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldenQuartzDoric",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_quartz_doric",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/blockstates/golden_quartz_doric.json",
+          "src/main/java/net/mcreator/magistralis/block/GoldenQuartzDoricBlock.java",
+          "src/main/resources/assets/magistralis/models/item/golden_quartz_doric.json",
+          "src/main/resources/assets/magistralis/models/block/golden_quartz_doric.json",
+          "src/main/resources/data/magistralis/loot_tables/blocks/golden_quartz_doric.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldenQuartzIonic",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_quartz_ionic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/models/block/golden_quartz_ionic.json",
+          "src/main/resources/data/magistralis/loot_tables/blocks/golden_quartz_ionic.json",
+          "src/main/resources/assets/magistralis/blockstates/golden_quartz_ionic.json",
+          "src/main/java/net/mcreator/magistralis/block/GoldenQuartzIonicBlock.java",
+          "src/main/resources/assets/magistralis/models/item/golden_quartz_ionic.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldenQuartzCorinthian",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_quartz_corinthian",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/models/item/golden_quartz_corinthian.json",
+          "src/main/resources/assets/magistralis/blockstates/golden_quartz_corinthian.json",
+          "src/main/java/net/mcreator/magistralis/block/GoldenQuartzCorinthianBlock.java",
+          "src/main/resources/assets/magistralis/models/block/golden_quartz_corinthian.json",
+          "src/main/resources/data/magistralis/loot_tables/blocks/golden_quartz_corinthian.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldenQuartzBase",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_quartz_base",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/blockstates/golden_quartz_base.json",
+          "src/main/java/net/mcreator/magistralis/block/GoldenQuartzBaseBlock.java",
+          "src/main/resources/assets/magistralis/models/item/golden_quartz_base.json",
+          "src/main/resources/assets/magistralis/models/block/golden_quartz_base.json",
+          "src/main/resources/data/magistralis/loot_tables/blocks/golden_quartz_base.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldenQD",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_qd",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/golden_qd.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldenQI",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_qi",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/golden_qi.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldenQC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_qc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/golden_qc.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldenQB",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_qb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/golden_qb.json"
+        ]
+      }
+    },
+    {
+      "name": "RedColumn",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_column",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magistralis/block/RedColumnBlock.java",
+          "src/main/resources/assets/magistralis/models/block/red_column.json",
+          "src/main/resources/data/magistralis/loot_tables/blocks/red_column.json",
+          "src/main/resources/assets/magistralis/models/item/red_column.json",
+          "src/main/resources/assets/magistralis/blockstates/red_column.json"
+        ]
+      }
+    },
+    {
+      "name": "QuartzEntablature",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_entablature",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/blockstates/quartz_entablature.json",
+          "src/main/resources/data/magistralis/loot_tables/blocks/quartz_entablature.json",
+          "src/main/resources/assets/magistralis/models/item/quartz_entablature.json",
+          "src/main/resources/assets/magistralis/models/block/quartz_entablature.json",
+          "src/main/java/net/mcreator/magistralis/block/QuartzEntablatureBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "RedEntablature",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_entablature",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/models/item/red_entablature.json",
+          "src/main/resources/data/magistralis/loot_tables/blocks/red_entablature.json",
+          "src/main/resources/assets/magistralis/models/block/red_entablature.json",
+          "src/main/resources/assets/magistralis/blockstates/red_entablature.json",
+          "src/main/java/net/mcreator/magistralis/block/RedEntablatureBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "BlueEntablature",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_entablature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/loot_tables/blocks/blue_entablature.json",
+          "src/main/java/net/mcreator/magistralis/block/BlueEntablatureBlock.java",
+          "src/main/resources/assets/magistralis/blockstates/blue_entablature.json",
+          "src/main/resources/assets/magistralis/models/item/blue_entablature.json",
+          "src/main/resources/assets/magistralis/models/block/blue_entablature.json"
+        ]
+      }
+    },
+    {
+      "name": "QuartzSmoothColumn",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_smooth_column",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/blockstates/quartz_smooth_column.json",
+          "src/main/resources/assets/magistralis/models/item/quartz_smooth_column.json",
+          "src/main/java/net/mcreator/magistralis/block/QuartzSmoothColumnBlock.java",
+          "src/main/resources/data/magistralis/loot_tables/blocks/quartz_smooth_column.json",
+          "src/main/resources/assets/magistralis/models/block/quartz_smooth_column.json"
+        ]
+      }
+    },
+    {
+      "name": "BigBase",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_base",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/models/block/big_base.json",
+          "src/main/java/net/mcreator/magistralis/block/BigBaseBlock.java",
+          "src/main/resources/data/magistralis/loot_tables/blocks/big_base.json",
+          "src/main/resources/assets/magistralis/blockstates/big_base.json",
+          "src/main/resources/assets/magistralis/models/item/big_base.json"
+        ]
+      }
+    },
+    {
+      "name": "BigDoricCapital",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_doric_capital",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/models/item/big_doric_capital.json",
+          "src/main/resources/assets/magistralis/blockstates/big_doric_capital.json",
+          "src/main/resources/data/magistralis/loot_tables/blocks/big_doric_capital.json",
+          "src/main/java/net/mcreator/magistralis/block/BigDoricCapitalBlock.java",
+          "src/main/resources/assets/magistralis/models/block/big_doric_capital.json"
+        ]
+      }
+    },
+    {
+      "name": "BigGoldenDoricCapital",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_golden_doric_capital",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magistralis/block/BigGoldenDoricCapitalBlock.java",
+          "src/main/resources/assets/magistralis/blockstates/big_golden_doric_capital.json",
+          "src/main/resources/assets/magistralis/models/block/big_golden_doric_capital.json",
+          "src/main/resources/assets/magistralis/models/item/big_golden_doric_capital.json",
+          "src/main/resources/data/magistralis/loot_tables/blocks/big_golden_doric_capital.json"
+        ]
+      }
+    },
+    {
+      "name": "BigGoldenBase",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_golden_base",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/models/item/big_golden_base.json",
+          "src/main/java/net/mcreator/magistralis/block/BigGoldenBaseBlock.java",
+          "src/main/resources/data/magistralis/loot_tables/blocks/big_golden_base.json",
+          "src/main/resources/assets/magistralis/models/block/big_golden_base.json",
+          "src/main/resources/assets/magistralis/blockstates/big_golden_base.json"
+        ]
+      }
+    },
+    {
+      "name": "BigGoldenIonicCapital",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_golden_ionic_capital",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/blockstates/big_golden_ionic_capital.json",
+          "src/main/resources/data/magistralis/loot_tables/blocks/big_golden_ionic_capital.json",
+          "src/main/resources/assets/magistralis/models/item/big_golden_ionic_capital.json",
+          "src/main/java/net/mcreator/magistralis/block/BigGoldenIonicCapitalBlock.java",
+          "src/main/resources/assets/magistralis/models/block/big_golden_ionic_capital.json"
+        ]
+      }
+    },
+    {
+      "name": "BigIonicCapital",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_ionic_capital",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magistralis/block/BigIonicCapitalBlock.java",
+          "src/main/resources/data/magistralis/loot_tables/blocks/big_ionic_capital.json",
+          "src/main/resources/assets/magistralis/models/block/big_ionic_capital.json",
+          "src/main/resources/assets/magistralis/blockstates/big_ionic_capital.json",
+          "src/main/resources/assets/magistralis/models/item/big_ionic_capital.json"
+        ]
+      }
+    },
+    {
+      "name": "BigCorithianCapital",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_corithian_capital",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/models/block/big_corithian_capital.json",
+          "src/main/resources/assets/magistralis/models/item/big_corithian_capital.json",
+          "src/main/java/net/mcreator/magistralis/block/BigCorithianCapitalBlock.java",
+          "src/main/resources/data/magistralis/loot_tables/blocks/big_corithian_capital.json",
+          "src/main/resources/assets/magistralis/blockstates/big_corithian_capital.json"
+        ]
+      }
+    },
+    {
+      "name": "BigGoldenCorithianCapital",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_golden_corithian_capital",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/models/item/big_golden_corithian_capital.json",
+          "src/main/java/net/mcreator/magistralis/block/BigGoldenCorithianCapitalBlock.java",
+          "src/main/resources/assets/magistralis/blockstates/big_golden_corithian_capital.json",
+          "src/main/resources/data/magistralis/loot_tables/blocks/big_golden_corithian_capital.json",
+          "src/main/resources/assets/magistralis/models/block/big_golden_corithian_capital.json"
+        ]
+      }
+    },
+    {
+      "name": "RedCC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_cc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/red_cc.json"
+        ]
+      }
+    },
+    {
+      "name": "QEntablatureC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "q_entablature_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/q_entablature_c.json"
+        ]
+      }
+    },
+    {
+      "name": "REntablatureC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_entablature_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/r_entablature_c.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueEC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_ec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/blue_ec.json"
+        ]
+      }
+    },
+    {
+      "name": "CQuartzD",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_quartz_d",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/c_quartz_d.json"
+        ]
+      }
+    },
+    {
+      "name": "BQuartzIC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_quartz_ic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/b_quartz_ic.json"
+        ]
+      }
+    },
+    {
+      "name": "BQuartzCo",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_quartz_co",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/b_quartz_co.json"
+        ]
+      }
+    },
+    {
+      "name": "BQuartzB",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_quartz_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/b_quartz_b.json"
+        ]
+      }
+    },
+    {
+      "name": "BGoldenQD",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_golden_qd",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/b_golden_qd.json"
+        ]
+      }
+    },
+    {
+      "name": "BGoldenQI",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_golden_qi",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/b_golden_qi.json"
+        ]
+      }
+    },
+    {
+      "name": "BGoldenQB",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_golden_qb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/b_golden_qb.json"
+        ]
+      }
+    },
+    {
+      "name": "BGoldenQC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_golden_qc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/b_golden_qc.json"
+        ]
+      }
+    },
+    {
+      "name": "SandstoneDoric",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_doric",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/models/item/sandstone_doric.json",
+          "src/main/java/net/mcreator/magistralis/block/SandstoneDoricBlock.java",
+          "src/main/resources/assets/magistralis/blockstates/sandstone_doric.json",
+          "src/main/resources/assets/magistralis/models/block/sandstone_doric.json",
+          "src/main/resources/data/magistralis/loot_tables/blocks/sandstone_doric.json"
+        ]
+      }
+    },
+    {
+      "name": "SandstoneColumn",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_column",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magistralis/block/SandstoneColumnBlock.java",
+          "src/main/resources/data/magistralis/loot_tables/blocks/sandstone_column.json",
+          "src/main/resources/assets/magistralis/models/item/sandstone_column.json",
+          "src/main/resources/assets/magistralis/blockstates/sandstone_column.json",
+          "src/main/resources/assets/magistralis/models/block/sandstone_column.json"
+        ]
+      }
+    },
+    {
+      "name": "SandstoneIonic",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_ionic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/loot_tables/blocks/sandstone_ionic.json",
+          "src/main/java/net/mcreator/magistralis/block/SandstoneIonicBlock.java",
+          "src/main/resources/assets/magistralis/models/item/sandstone_ionic.json",
+          "src/main/resources/assets/magistralis/blockstates/sandstone_ionic.json",
+          "src/main/resources/assets/magistralis/models/block/sandstone_ionic.json"
+        ]
+      }
+    },
+    {
+      "name": "SandstoneCorinthian",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_corinthian",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/blockstates/sandstone_corinthian.json",
+          "src/main/resources/assets/magistralis/models/block/sandstone_corinthian.json",
+          "src/main/java/net/mcreator/magistralis/block/SandstoneCorinthianBlock.java",
+          "src/main/resources/assets/magistralis/models/item/sandstone_corinthian.json",
+          "src/main/resources/data/magistralis/loot_tables/blocks/sandstone_corinthian.json"
+        ]
+      }
+    },
+    {
+      "name": "SandstoneBase",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_base",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/models/item/sandstone_base.json",
+          "src/main/resources/data/magistralis/loot_tables/blocks/sandstone_base.json",
+          "src/main/resources/assets/magistralis/blockstates/sandstone_base.json",
+          "src/main/java/net/mcreator/magistralis/block/SandstoneBaseBlock.java",
+          "src/main/resources/assets/magistralis/models/block/sandstone_base.json"
+        ]
+      }
+    },
+    {
+      "name": "SandstoneEntablature",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_entablature",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/models/item/sandstone_entablature.json",
+          "src/main/resources/assets/magistralis/models/block/sandstone_entablature.json",
+          "src/main/java/net/mcreator/magistralis/block/SandstoneEntablatureBlock.java",
+          "src/main/resources/data/magistralis/loot_tables/blocks/sandstone_entablature.json",
+          "src/main/resources/assets/magistralis/blockstates/sandstone_entablature.json"
+        ]
+      }
+    },
+    {
+      "name": "BigSandstoneBase",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_sandstone_base",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/loot_tables/blocks/big_sandstone_base.json",
+          "src/main/java/net/mcreator/magistralis/block/BigSandstoneBaseBlock.java",
+          "src/main/resources/assets/magistralis/blockstates/big_sandstone_base.json",
+          "src/main/resources/assets/magistralis/models/item/big_sandstone_base.json",
+          "src/main/resources/assets/magistralis/models/block/big_sandstone_base.json"
+        ]
+      }
+    },
+    {
+      "name": "BigSandstoneDoricCapital",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_sandstone_doric_capital",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/models/item/big_sandstone_doric_capital.json",
+          "src/main/java/net/mcreator/magistralis/block/BigSandstoneDoricCapitalBlock.java",
+          "src/main/resources/data/magistralis/loot_tables/blocks/big_sandstone_doric_capital.json",
+          "src/main/resources/assets/magistralis/blockstates/big_sandstone_doric_capital.json",
+          "src/main/resources/assets/magistralis/models/block/big_sandstone_doric_capital.json"
+        ]
+      }
+    },
+    {
+      "name": "BigSandstoneIonicCapital",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_sandstone_ionic_capital",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/models/item/big_sandstone_ionic_capital.json",
+          "src/main/java/net/mcreator/magistralis/block/BigSandstoneIonicCapitalBlock.java",
+          "src/main/resources/data/magistralis/loot_tables/blocks/big_sandstone_ionic_capital.json",
+          "src/main/resources/assets/magistralis/models/block/big_sandstone_ionic_capital.json",
+          "src/main/resources/assets/magistralis/blockstates/big_sandstone_ionic_capital.json"
+        ]
+      }
+    },
+    {
+      "name": "BigSandstoneCorithianCapital",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_sandstone_corithian_capital",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/models/block/big_sandstone_corithian_capital.json",
+          "src/main/java/net/mcreator/magistralis/block/BigSandstoneCorithianCapitalBlock.java",
+          "src/main/resources/data/magistralis/loot_tables/blocks/big_sandstone_corithian_capital.json",
+          "src/main/resources/assets/magistralis/blockstates/big_sandstone_corithian_capital.json",
+          "src/main/resources/assets/magistralis/models/item/big_sandstone_corithian_capital.json"
+        ]
+      }
+    },
+    {
+      "name": "SandstonePillar",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_pillar",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/loot_tables/blocks/sandstone_pillar.json",
+          "src/main/java/net/mcreator/magistralis/block/SandstonePillarBlock.java",
+          "src/main/resources/assets/magistralis/blockstates/sandstone_pillar.json",
+          "src/main/resources/assets/magistralis/models/item/sandstone_pillar.json",
+          "src/main/resources/assets/magistralis/models/block/sandstone_pillar.json"
+        ]
+      }
+    },
+    {
+      "name": "SandstoneSmoothColumn",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_smooth_column",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magistralis/block/SandstoneSmoothColumnBlock.java",
+          "src/main/resources/assets/magistralis/models/item/sandstone_smooth_column.json",
+          "src/main/resources/assets/magistralis/blockstates/sandstone_smooth_column.json",
+          "src/main/resources/data/magistralis/loot_tables/blocks/sandstone_smooth_column.json",
+          "src/main/resources/assets/magistralis/models/block/sandstone_smooth_column.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedSandstone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_sandstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/loot_tables/blocks/polished_sandstone.json",
+          "src/main/resources/assets/magistralis/models/block/polished_sandstone.json",
+          "src/main/resources/assets/magistralis/models/item/polished_sandstone.json",
+          "src/main/resources/assets/magistralis/blockstates/polished_sandstone.json",
+          "src/main/java/net/mcreator/magistralis/block/PolishedSandstoneBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PS",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ps",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/ps.json"
+        ]
+      }
+    },
+    {
+      "name": "SP",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/sp.json"
+        ]
+      }
+    },
+    {
+      "name": "PSS",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pss",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/pss.json"
+        ]
+      }
+    },
+    {
+      "name": "SPS",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sps",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/sps.json"
+        ]
+      }
+    },
+    {
+      "name": "SD",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sd",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/sd.json"
+        ]
+      }
+    },
+    {
+      "name": "SC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/sc.json"
+        ]
+      }
+    },
+    {
+      "name": "SI",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "si",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/si.json"
+        ]
+      }
+    },
+    {
+      "name": "SCS",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/scs.json"
+        ]
+      }
+    },
+    {
+      "name": "SB",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/sb.json"
+        ]
+      }
+    },
+    {
+      "name": "BSD",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bsd",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/bsd.json"
+        ]
+      }
+    },
+    {
+      "name": "SE",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "se",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/se.json"
+        ]
+      }
+    },
+    {
+      "name": "BSB",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bsb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/bsb.json"
+        ]
+      }
+    },
+    {
+      "name": "BSDS",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bsds",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/bsds.json"
+        ]
+      }
+    },
+    {
+      "name": "BSC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bsc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/bsc.json"
+        ]
+      }
+    },
+    {
+      "name": "SSC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ssc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/ssc.json"
+        ]
+      }
+    },
+    {
+      "name": "SmallQuartzColumn",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_quartz_column",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/blockstates/small_quartz_column.json",
+          "src/main/resources/assets/magistralis/models/block/small_quartz_column.json",
+          "src/main/resources/assets/magistralis/models/item/small_quartz_column.json",
+          "src/main/java/net/mcreator/magistralis/block/SmallQuartzColumnBlock.java",
+          "src/main/resources/data/magistralis/loot_tables/blocks/small_quartz_column.json"
+        ]
+      }
+    },
+    {
+      "name": "SmallQuartzDoric",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_quartz_doric",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magistralis/block/SmallQuartzDoricBlock.java",
+          "src/main/resources/data/magistralis/loot_tables/blocks/small_quartz_doric.json",
+          "src/main/resources/assets/magistralis/blockstates/small_quartz_doric.json",
+          "src/main/resources/assets/magistralis/models/block/small_quartz_doric.json",
+          "src/main/resources/assets/magistralis/models/item/small_quartz_doric.json"
+        ]
+      }
+    },
+    {
+      "name": "SmallQuartzIonic",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_quartz_ionic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/models/item/small_quartz_ionic.json",
+          "src/main/resources/data/magistralis/loot_tables/blocks/small_quartz_ionic.json",
+          "src/main/resources/assets/magistralis/models/block/small_quartz_ionic.json",
+          "src/main/resources/assets/magistralis/blockstates/small_quartz_ionic.json",
+          "src/main/java/net/mcreator/magistralis/block/SmallQuartzIonicBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SmallQuartzCorinthian",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_quartz_corinthian",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/models/item/small_quartz_corinthian.json",
+          "src/main/resources/data/magistralis/loot_tables/blocks/small_quartz_corinthian.json",
+          "src/main/java/net/mcreator/magistralis/block/SmallQuartzCorinthianBlock.java",
+          "src/main/resources/assets/magistralis/models/block/small_quartz_corinthian.json",
+          "src/main/resources/assets/magistralis/blockstates/small_quartz_corinthian.json"
+        ]
+      }
+    },
+    {
+      "name": "SmallQuartzBase",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_quartz_base",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/blockstates/small_quartz_base.json",
+          "src/main/resources/assets/magistralis/models/item/small_quartz_base.json",
+          "src/main/resources/assets/magistralis/models/block/small_quartz_base.json",
+          "src/main/java/net/mcreator/magistralis/block/SmallQuartzBaseBlock.java",
+          "src/main/resources/data/magistralis/loot_tables/blocks/small_quartz_base.json"
+        ]
+      }
+    },
+    {
+      "name": "SmallGoldenQuartzDoric",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_golden_quartz_doric",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/loot_tables/blocks/small_golden_quartz_doric.json",
+          "src/main/resources/assets/magistralis/blockstates/small_golden_quartz_doric.json",
+          "src/main/resources/assets/magistralis/models/block/small_golden_quartz_doric.json",
+          "src/main/java/net/mcreator/magistralis/block/SmallGoldenQuartzDoricBlock.java",
+          "src/main/resources/assets/magistralis/models/item/small_golden_quartz_doric.json"
+        ]
+      }
+    },
+    {
+      "name": "SmallGoldenQuartzIonic",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_golden_quartz_ionic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/models/item/small_golden_quartz_ionic.json",
+          "src/main/java/net/mcreator/magistralis/block/SmallGoldenQuartzIonicBlock.java",
+          "src/main/resources/data/magistralis/loot_tables/blocks/small_golden_quartz_ionic.json",
+          "src/main/resources/assets/magistralis/blockstates/small_golden_quartz_ionic.json",
+          "src/main/resources/assets/magistralis/models/block/small_golden_quartz_ionic.json"
+        ]
+      }
+    },
+    {
+      "name": "SmallGoldenQuartzCorinthian",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_golden_quartz_corinthian",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/models/item/small_golden_quartz_corinthian.json",
+          "src/main/java/net/mcreator/magistralis/block/SmallGoldenQuartzCorinthianBlock.java",
+          "src/main/resources/data/magistralis/loot_tables/blocks/small_golden_quartz_corinthian.json",
+          "src/main/resources/assets/magistralis/blockstates/small_golden_quartz_corinthian.json",
+          "src/main/resources/assets/magistralis/models/block/small_golden_quartz_corinthian.json"
+        ]
+      }
+    },
+    {
+      "name": "SmallGoldenQuartzBase",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_golden_quartz_base",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/models/block/small_golden_quartz_base.json",
+          "src/main/resources/assets/magistralis/blockstates/small_golden_quartz_base.json",
+          "src/main/resources/data/magistralis/loot_tables/blocks/small_golden_quartz_base.json",
+          "src/main/java/net/mcreator/magistralis/block/SmallGoldenQuartzBaseBlock.java",
+          "src/main/resources/assets/magistralis/models/item/small_golden_quartz_base.json"
+        ]
+      }
+    },
+    {
+      "name": "SmallQuartzSmoothColumn",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_quartz_smooth_column",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/loot_tables/blocks/small_quartz_smooth_column.json",
+          "src/main/resources/assets/magistralis/blockstates/small_quartz_smooth_column.json",
+          "src/main/resources/assets/magistralis/models/item/small_quartz_smooth_column.json",
+          "src/main/java/net/mcreator/magistralis/block/SmallQuartzSmoothColumnBlock.java",
+          "src/main/resources/assets/magistralis/models/block/small_quartz_smooth_column.json"
+        ]
+      }
+    },
+    {
+      "name": "SmallSandstoneDoric",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_sandstone_doric",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/models/block/small_sandstone_doric.json",
+          "src/main/resources/assets/magistralis/models/item/small_sandstone_doric.json",
+          "src/main/java/net/mcreator/magistralis/block/SmallSandstoneDoricBlock.java",
+          "src/main/resources/data/magistralis/loot_tables/blocks/small_sandstone_doric.json",
+          "src/main/resources/assets/magistralis/blockstates/small_sandstone_doric.json"
+        ]
+      }
+    },
+    {
+      "name": "SmallSandstoneColumn",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_sandstone_column",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/loot_tables/blocks/small_sandstone_column.json",
+          "src/main/resources/assets/magistralis/models/block/small_sandstone_column.json",
+          "src/main/resources/assets/magistralis/models/item/small_sandstone_column.json",
+          "src/main/java/net/mcreator/magistralis/block/SmallSandstoneColumnBlock.java",
+          "src/main/resources/assets/magistralis/blockstates/small_sandstone_column.json"
+        ]
+      }
+    },
+    {
+      "name": "SmallSandstoneIonic",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_sandstone_ionic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/blockstates/small_sandstone_ionic.json",
+          "src/main/resources/data/magistralis/loot_tables/blocks/small_sandstone_ionic.json",
+          "src/main/java/net/mcreator/magistralis/block/SmallSandstoneIonicBlock.java",
+          "src/main/resources/assets/magistralis/models/block/small_sandstone_ionic.json",
+          "src/main/resources/assets/magistralis/models/item/small_sandstone_ionic.json"
+        ]
+      }
+    },
+    {
+      "name": "SmallSandstoneCorinthian",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_sandstone_corinthian",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/loot_tables/blocks/small_sandstone_corinthian.json",
+          "src/main/resources/assets/magistralis/models/block/small_sandstone_corinthian.json",
+          "src/main/java/net/mcreator/magistralis/block/SmallSandstoneCorinthianBlock.java",
+          "src/main/resources/assets/magistralis/models/item/small_sandstone_corinthian.json",
+          "src/main/resources/assets/magistralis/blockstates/small_sandstone_corinthian.json"
+        ]
+      }
+    },
+    {
+      "name": "SmallSandstoneBase",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_sandstone_base",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magistralis/models/item/small_sandstone_base.json",
+          "src/main/resources/data/magistralis/loot_tables/blocks/small_sandstone_base.json",
+          "src/main/resources/assets/magistralis/blockstates/small_sandstone_base.json",
+          "src/main/resources/assets/magistralis/models/block/small_sandstone_base.json",
+          "src/main/java/net/mcreator/magistralis/block/SmallSandstoneBaseBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SmallSandstoneSmoothColumn",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_sandstone_smooth_column",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/loot_tables/blocks/small_sandstone_smooth_column.json",
+          "src/main/java/net/mcreator/magistralis/block/SmallSandstoneSmoothColumnBlock.java",
+          "src/main/resources/assets/magistralis/models/item/small_sandstone_smooth_column.json",
+          "src/main/resources/assets/magistralis/blockstates/small_sandstone_smooth_column.json",
+          "src/main/resources/assets/magistralis/models/block/small_sandstone_smooth_column.json"
+        ]
+      }
+    },
+    {
+      "name": "Sqc",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sqc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/sqc.json"
+        ]
+      }
+    },
+    {
+      "name": "Sqd",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sqd",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/sqd.json"
+        ]
+      }
+    },
+    {
+      "name": "Sqi",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sqi",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/sqi.json"
+        ]
+      }
+    },
+    {
+      "name": "Sqcs",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sqcs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/sqcs.json"
+        ]
+      }
+    },
+    {
+      "name": "Sqb",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sqb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/sqb.json"
+        ]
+      }
+    },
+    {
+      "name": "Sgd",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sgd",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/sgd.json"
+        ]
+      }
+    },
+    {
+      "name": "Sgi",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sgi",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/sgi.json"
+        ]
+      }
+    },
+    {
+      "name": "Sgc",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sgc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/sgc.json"
+        ]
+      }
+    },
+    {
+      "name": "Sgb",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sgb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/sgb.json"
+        ]
+      }
+    },
+    {
+      "name": "Ssd",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ssd",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/ssd.json"
+        ]
+      }
+    },
+    {
+      "name": "Ssi",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ssi",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/ssi.json"
+        ]
+      }
+    },
+    {
+      "name": "Sscs",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sscs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/sscs.json"
+        ]
+      }
+    },
+    {
+      "name": "Ssb",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ssb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/ssb.json"
+        ]
+      }
+    },
+    {
+      "name": "Sscst",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sscst",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/sscst.json"
+        ]
+      }
+    },
+    {
+      "name": "Sssc",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sssc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/sssc.json"
+        ]
+      }
+    },
+    {
+      "name": "Ssqc",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ssqc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/ssqc.json"
+        ]
+      }
+    },
+    {
+      "name": "QuartzSC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_sc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magistralis/recipes/quartz_sc.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:SmallSandstoneSmoothColumn",
+      "~CUSTOM:SmallSandstoneBase",
+      "~CUSTOM:SmallSandstoneCorinthian",
+      "~CUSTOM:SmallSandstoneIonic",
+      "~CUSTOM:SmallSandstoneColumn",
+      "~CUSTOM:SmallSandstoneDoric",
+      "~CUSTOM:SmallQuartzSmoothColumn",
+      "~CUSTOM:SmallGoldenQuartzBase",
+      "~CUSTOM:SmallGoldenQuartzCorinthian",
+      "~CUSTOM:SmallGoldenQuartzIonic",
+      "~CUSTOM:SmallGoldenQuartzDoric",
+      "~CUSTOM:SmallQuartzBase",
+      "~CUSTOM:SmallQuartzCorinthian",
+      "~CUSTOM:SmallQuartzIonic",
+      "~CUSTOM:SmallQuartzDoric",
+      "~CUSTOM:SmallQuartzColumn",
+      "~CUSTOM:SandstoneSmoothColumn",
+      "~CUSTOM:BigSandstoneCorithianCapital",
+      "~CUSTOM:BigSandstoneIonicCapital",
+      "~CUSTOM:BigSandstoneDoricCapital",
+      "~CUSTOM:BigSandstoneBase",
+      "~CUSTOM:SandstoneEntablature",
+      "~CUSTOM:SandstoneBase",
+      "~CUSTOM:SandstoneCorinthian",
+      "~CUSTOM:SandstoneIonic",
+      "~CUSTOM:SandstoneColumn",
+      "~CUSTOM:SandstoneDoric",
+      "~CUSTOM:BigGoldenCorithianCapital",
+      "~CUSTOM:BigCorithianCapital",
+      "~CUSTOM:BigIonicCapital",
+      "~CUSTOM:BigGoldenIonicCapital",
+      "~CUSTOM:BigGoldenBase",
+      "~CUSTOM:BigGoldenDoricCapital",
+      "~CUSTOM:BigDoricCapital",
+      "~CUSTOM:BigBase",
+      "~CUSTOM:QuartzSmoothColumn",
+      "~CUSTOM:BlueEntablature",
+      "~CUSTOM:RedEntablature",
+      "~CUSTOM:QuartzEntablature",
+      "~CUSTOM:RedColumn",
+      "~CUSTOM:GoldenQuartzBase",
+      "~CUSTOM:GoldenQuartzCorinthian",
+      "~CUSTOM:GoldenQuartzIonic",
+      "~CUSTOM:GoldenQuartzDoric",
+      "~CUSTOM:QuartzBase",
+      "~CUSTOM:QuartzCorinthian",
+      "~CUSTOM:QuartzIonic",
+      "~CUSTOM:QuartzDoric",
+      "~CUSTOM:QuartzColumn"
+    ]
+  },
+  "tab_element_order": {
+    "CUSTOM:Magistralis": [
+      "SmallQuartzSmoothColumn",
+      "SmallQuartzColumn",
+      "SmallQuartzBase",
+      "SmallQuartzDoric",
+      "SmallQuartzIonic",
+      "SmallQuartzCorinthian",
+      "QuartzSmoothColumn",
+      "QuartzColumn",
+      "QuartzBase",
+      "QuartzDoric",
+      "QuartzIonic",
+      "QuartzCorinthian",
+      "BigBase",
+      "BigDoricCapital",
+      "BigIonicCapital",
+      "BigCorithianCapital",
+      "GoldenQuartzBase",
+      "GoldenQuartzDoric",
+      "GoldenQuartzIonic",
+      "GoldenQuartzCorinthian",
+      "SmallGoldenQuartzBase",
+      "SmallGoldenQuartzDoric",
+      "SmallGoldenQuartzIonic",
+      "SmallGoldenQuartzCorinthian",
+      "BigGoldenBase",
+      "BigGoldenDoricCapital",
+      "BigGoldenIonicCapital",
+      "BigGoldenCorithianCapital",
+      "SmallSandstoneSmoothColumn",
+      "SmallSandstoneColumn",
+      "SmallSandstoneBase",
+      "SmallSandstoneDoric",
+      "SmallSandstoneIonic",
+      "SmallSandstoneCorinthian",
+      "SandstoneSmoothColumn",
+      "SandstoneColumn",
+      "SandstoneDoric",
+      "SandstoneIonic",
+      "SandstoneCorinthian",
+      "SandstoneBase",
+      "BigSandstoneBase",
+      "BigSandstoneDoricCapital",
+      "BigSandstoneIonicCapital",
+      "BigSandstoneCorithianCapital",
+      "RedColumn",
+      "QuartzEntablature",
+      "SandstoneEntablature",
+      "RedEntablature",
+      "BlueEntablature",
+      "SandstonePillar",
+      "PolishedSandstone"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "block.magistralis.big_sandstone_doric_capital": "Big Sandstone Doric Capital",
+      "item_group.magistralis.magistralis": "Magistralis",
+      "block.magistralis.big_golden_ionic_capital": "Big Quartz Golden Ionic Capital",
+      "block.magistralis.sandstone_column": "Sandstone Column",
+      "block.magistralis.golden_quartz_doric": "Golden Quartz Doric Capital",
+      "block.magistralis.big_sandstone_ionic_capital": "Big Sandstone Ionic Capital",
+      "block.magistralis.big_golden_doric_capital": "Big Quartz Golden Doric Capital",
+      "block.magistralis.quartz_ionic": "Quartz Ionic Capital",
+      "block.magistralis.quartz_corinthian": "Quartz Corinthian Capital",
+      "block.magistralis.small_golden_quartz_corinthian": "Small Golden Quartz Corinthian Capital",
+      "block.magistralis.quartz_smooth_column": "Quartz Column",
+      "block.magistralis.sandstone_base": "Sandstone Base",
+      "block.magistralis.quartz_base": "Quartz Base",
+      "block.magistralis.sandstone_pillar": "Sandstone Pillar",
+      "block.magistralis.big_golden_base": "Big Quartz Golden Base",
+      "block.magistralis.small_quartz_base": "Small Quartz Base",
+      "block.magistralis.small_golden_quartz_ionic": "Small Golden Quartz Ionic Capital",
+      "block.magistralis.small_sandstone_smooth_column": "Small Smooth Sandstone Column",
+      "block.magistralis.sandstone_corinthian": "Sandstone Corinthian Capital",
+      "block.magistralis.quartz_column": "Quartz Pillar Column",
+      "block.magistralis.small_sandstone_corinthian": "Small Sandstone Corinthian Capital",
+      "block.magistralis.small_sandstone_doric": "Small Sandstone Doric Capital",
+      "block.magistralis.golden_quartz_ionic": "Golden Quartz Ionic Capital",
+      "block.magistralis.red_entablature": "Quartz Entablature",
+      "block.magistralis.golden_quartz_base": "Big Quartz Base",
+      "block.magistralis.sandstone_ionic": "Sandstone Ionic Capital",
+      "block.magistralis.small_quartz_ionic": "Small Quartz Ionic Capital",
+      "block.magistralis.small_quartz_column": "Small Quartz Pillar Column",
+      "block.magistralis.big_corithian_capital": "Big Quartz Golden Corinthian Capital",
+      "block.magistralis.quartz_doric": "Quartz Doric Capital",
+      "block.magistralis.blue_entablature": "Quartz Entablature",
+      "block.magistralis.small_sandstone_column": "Small Sandstone Column",
+      "block.magistralis.red_column": "Quartz Column",
+      "block.magistralis.big_base": "Big Quartz Base",
+      "block.magistralis.small_quartz_corinthian": "Small Quartz Corinthian Capital",
+      "block.magistralis.small_sandstone_base": "Small Sandstone Base",
+      "block.magistralis.quartz_entablature": "Quartz Entablature",
+      "block.magistralis.sandstone_entablature": "Sandstone Entablature",
+      "block.magistralis.polished_sandstone": "Polished Sandstone",
+      "block.magistralis.golden_quartz_corinthian": "Golden Quartz Corinthian Capital",
+      "block.magistralis.sandstone_smooth_column": "Smooth Sandstone Column",
+      "block.magistralis.small_golden_quartz_base": "Small Golden Quartz Base",
+      "block.magistralis.big_golden_corithian_capital": "Big Quartz Golden Corinthian Capital",
+      "block.magistralis.small_sandstone_ionic": "Small Sandstone Ionic Capital",
+      "block.magistralis.small_golden_quartz_doric": "Small Golden Quartz Doric Capital",
+      "block.magistralis.small_quartz_doric": "Small Quartz Doric Capital",
+      "block.magistralis.big_doric_capital": "Big Quartz Doric Capital",
+      "block.magistralis.big_sandstone_base": "Big Sandstone Base",
+      "block.magistralis.big_ionic_capital": "Big Quartz Ionic Capital",
+      "block.magistralis.big_sandstone_corithian_capital": "Big Sandstone Corinthian Capital",
+      "block.magistralis.small_quartz_smooth_column": "Small Quartz Column",
+      "block.magistralis.sandstone_doric": "Sandstone Doric Capital"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "magistralis",
+    "modName": "magistralis",
+    "version": "1.2.1",
+    "author": "franciscofunari, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.magistralis"
+  },
+  "mcreatorVersion": 202500113416
+}
